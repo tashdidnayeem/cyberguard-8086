@@ -36,15 +36,6 @@ My background in cybersecurity includes vulnerability assessment and penetration
 
 The source targets Emu8086 and a DOS `.COM` execution environment. It is not a native modern Windows/Linux executable.
 
-## Example walkthrough
-
-- Analyze `Cyber@123`: expected score **5/5**, **STRONG**.
-- Simulate **TCP port 443**: expected **HTTPS / ALLOW / LOW**.
-- Encrypt `HELLO` with key `5`: expected bytes **4D 40 49 49 4A**; decrypt with key `5` to recover `HELLO`.
-- Scan `malware exploit found in sample`: expected **2** distinct matches and **HIGH**.
-
-See [manual test cases](docs/DEMO_TEST_CASES.md) and [demo recording guide](docs/DEMO_GUIDE.md).
-
 ## Educational limitations
 
 - The firewall is a rule-lookup simulation; it does not inspect or block network traffic. Risk labels are fixed demo values, not real-world security assessments.
@@ -72,7 +63,7 @@ Readers should use the project to understand the implementation and follow their
 
 ## Author
 
-**MD TASHDID NAYEEM** — Cybersecurity professional and Computer Science & Engineering student at BRAC University.
+**MD TASHDID NAYEEM** - Cybersecurity professional and Computer Science & Engineering student at BRAC University.
 
 - [LinkedIn](https://www.linkedin.com/in/muhammad-tashdid-nayeem/)
 - [Portfolio](https://tashdidnayeem.carrd.co/)
